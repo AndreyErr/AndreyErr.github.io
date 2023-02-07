@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Title -->
+    <title>Документация</title>
+  
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.png">
+  
+    <meta name="keywords" content="">
+    <meta name="description" content="Документация">
+    <meta name="author" content="htmlstream.com, Андрей сорокин">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="../assets/vendor/prism/prism.css">
+  
+    <!-- CSS Implementing Plugins -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+  <!-- CSS Template -->
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+</head>
+<body class="bg-white">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+      <nav class="col-md-4 col-lg-3 col-xl-2 bg-dark text-white duik-sidebar duik-sidebar--dark ui-autocomplete-wrapper--dark navbar-expand-md pt-0">
+        <div class="d-flex justify-content-between bg-black-soft w-100">
+          <a class="d-block w-md-100 p-3 mr-md-0 navbar-brand text-light" href="../index.html">
+            AndreyErrDocs
+            <span class="small">
+              <span class="badge badge-light text-space-1">v1.0.0</span>
+            </span>
+          </a>
+
+          <!-- Responsive Toggle Button -->
+          <button class="btn btn-link text-white pl-0 d-md-none" type="button" data-toggle="collapse" data-target="#sidebar-nav" aria-controls="sidebar-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+              <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+          </button>
+          <!-- End Responsive Toggle Button -->
+        </div>
+
+        <!-- Sidebar Nav -->
+        <div class="collapse navbar-collapse" id="sidebar-nav">
+          <div class="js-scrollbar duik-sidebar-sticky duik-sidebar-sticky--mini">
+            <h5 class="duik-sidebar__heading">Introduction</h5>
+            <ul class="duik-sidebar__nav">
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link active" href="../php-uni-forum_Documentation/start.html">Начало</a></li>
+              <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="#!">...</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End Sidebar Nav -->
+
+        <hr class="mt-0 mt-md-3 mb-4">
+
+        <!-- Fast Links -->
+        <ul class="duik-sidebar__nav mb-0">
+          <li class="duik-sidebar__item"><a class="duik-sidebar__link" href="https://github.com/AndreyErr/php-uni-forum" target="_blank"><i class="fa-brands fa-github mr-2"></i> Репозиторий</a></li>
+        </ul>
+        <!-- End Fast Links -->
+
+        <hr class="mt-0 mt-md-3 mb-4">
+
+        <div class="px-3 pb-5">
+          <a class="btn btn-sm btn-block btn-primary" href="https://github.com/AndreyErr/php-uni-forum/releases" title="Скачать" target="_blank"><i class="fas fa-cloud-download-alt mr-1"></i> Скачать код</a>
+        </div>
+      </nav>
+      <!-- End Sidebar -->
+
+      <main class="ml-sm-auto col-md-8 col-lg-9 col-xl-10 px-4 pt-4">
+        <div class="row pt-3">
+          <!-- Content Nav -->
+          <div class="col-xl-2 order-xl-2 d-none d-xl-inline-block">
+            <ul class="js-scroll-nav duik-content-nav top-3">
+              <li class="duik-content-nav__item"><a href="#doc-about">О репозитории</a></li>
+              <li class="duik-content-nav__item"><a href="#doc-whats-included">Что внутри</a></li>
+              <li class="duik-content-nav__item"><a href="#po">Необходимое ПО</a></li>
+              <li class="duik-content-nav__item">
+                <a href="#doc-getting-started">Установка</a>
+                <ul>
+                  <li class="duik-content-nav__item"><a href="#up">Установка</a></li>
+                  <li class="duik-content-nav__item"><a href="#start">Запуск</a></li>
+                </ul>
+              </li>
+              <li class="duik-content-nav__item"><a href="#doc-starter-template">Открыть проект</a></li>
+              <li class="duik-content-nav__item"><a href="#important-globals">Что дальше</a></li>
+            </ul>
+          </div>
+          <!-- End Content Nav -->
+
+          <!-- Content -->
+          <div class="col-xl-10 order-xl-1 duik-content-2 border-bottom">
+            <div class="border-bottom mb-7">
+              <h1 class="font-weight-bold">О репозитории</h1>
+              <p class="lead mb-5">Данный проект начался, как курсовой в вузе. Но продолжил немного развиваться. Он продставляет собой форум, созданный на основе паттерна MVC.</p>
+            </div>
+
+            <!-- About -->
+            <div id="doc-about" class="mb-7">
+              <h2 class="h4 font-weight-bold">Описание  <a class="js-anchor-link duik-anchorjs-link" href="#doc-about" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+              <p>Продставляет собой форум, созданный на основе паттерна MVC.</p>
+
+              <p>Связь со мной:</p>
+
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Сайт-визитка">
+                  <a class="text-dark" target="_blank" href="https://andreyerr.github.io/">
+                    <i class="fa-solid fa-image-portrait"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Почта">
+                  <a class="text-dark" target="_blank" href="mailto:a9165185808@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Телеграмм">
+                  <a class="text-dark" target="_blank" href="https://t.me/andrierr">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="ВК">
+                  <a class="text-dark" target="_blank" href="https://vk.com/rlo1999">
+                    <i class="fa-brands fa-vk"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- End About -->
+
+            <hr class="mt-7 mb-4">
+
+            <!-- What’s Included -->
+            <div id="doc-whats-included" class="mb-7">
+              <h2 class="h4 font-weight-bold">Что внутри <a class="js-anchor-link duik-anchorjs-link" href="#doc-whats-included" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+              <p>Внутри проекта 2 основные папки - server-config (серверные настройки) и web (сам сайт). Web делится на dynamic - который обрабатывается сервером apache и на static, который обрабатывается сервером nginx. Общая структура файловой системы с основными моментами следующая:</p>
+
+              <pre class="mb-4">
+                <code class="language-plaintext" data-lang="plaintext">
+                  php-uni-forum/
+                  ├── server-config/
+                  │   ├── apache/
+                  │   │   ├── 000-default.conf
+                  │   │   ├── ...
+                  │   ├── init/
+                  │   │   ├── init.sql
+                  │   ├── nginx/
+                  │       ├── init.sql
+                  │
+                  ├── web/
+                  │   ├── dynamic/
+                  │   │   ├── files/
+                  │   │   │   ├── forum/
+                  │   │   │   │   ├── tims/
+                  │   │   │   │   │   ├── .../
+                  │   │   │   │
+                  │   │   │   ├── img/
+                  │   │   │   │   ├── avatar/
+                  │   │   │   │   │   ├── ...
+                  │   │   │
+                  │   │   ├── lib/
+                  │   │   │   ├── formCheck.php
+                  │   │   │   ├── security.php
+                  │   │   │   ├── ...
+                  │   │   │   
+                  │   │   ├── modules/
+                  │   │   │   ├── .../
+                  │   │   │
+                  │   │   ├── settings/
+                  │   │   │   ├── access.php
+                  │   │   │   ├── config_data.php
+                  │   │   │   ├── db.php
+                  │   │   │   ├── status.php
+                  │   │   │   ├── topic_type.php
+                  │   │   │
+                  │   │   ├── system/
+                  │   │   │   ├── controller.php
+                  │   │   │   ├── model.php
+                  │   │   │   ├── router.php
+                  │   │   │   ├── view.php
+                  │   │   │
+                  │   │   ├── .htaccess
+                  │   │   ├── index.php
+                  │   │   │
+                  │   │   ├── styles.min.css
+                  │   ├── static/
+                  │       ├── err/
+                  │       │   ├── ...
+                  │       │
+                  │       ├── src/
+                  │           ├── css/
+                  │           │   ├── .../
+                  │           │
+                  │           ├── img/
+                  │           │   ├── .../
+                  │           │
+                  │           ├── js/
+                  │               ├── .../
+                  │           
+                  │
+                  ├── README.md
+                  ├── docker-compose.yml
+                </code>
+              </pre>
+            </div>
+            <!-- End What’s Included -->
+
+            <hr class="mt-7 mb-4">
+
+            <div id="po" class="mb-7">
+              <h2 class="h4 font-weight-bold">Необходимое ПО <a class="js-anchor-link duik-anchorjs-link" href="#po" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+              <p>Для простого запуска проекта вам потребуется программа <code>Docker</code>! Скачать ёё можно <a href="https://www.docker.com/" target="_blank">здесь</a> для windows 
+                или следовать <a href="https://docs.docker.com/desktop/install/linux-install/" target="_blank">следующим</a> инструкциям для установки на Linux. Программа сама подгрузит всё необходимое!
+              Если возникнут ошибки, то обратитесь к <a href="https://docs.docker.com/" target="_blank">документации</a> докера или иным форумам.</p>
+              <p>Настоятельно рекомендуем научится пользоваться докером.</p>
+              <p>Желательна установка Git.</p>
+              <p>Дальнейшие действия будут описаны в следующей главе.</p>
+            </div>
+
+            <hr class="mt-7 mb-4">
+
+            <!-- Getting Started -->
+            <div id="doc-getting-started" class="mb-7">
+              <h2 class="h4 font-weight-bold">Начальные шаги <a class="js-anchor-link duik-anchorjs-link" href="#doc-getting-started" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+              <p>После подготовки необходимого ПО следуем следующим простым шагам:</p>
+              <div class="mb-5" id="up">
+                <div class="media mb-3">
+                  <span class="badge badge-primary badge-pill align-self-center mr-2">1</span>
+                  <div class="media-body">
+                    <h4 class="h5 font-weight-bold mb-0">Скачиваем репозиторий <a class="js-anchor-link duik-anchorjs-link" href="#up" aria-label="Anchor" data-anchorjs-icon="#"></a></h4>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <h5 class="h6 font-weight-bold">Git</h5>
+                  <p>Выполните команду <pre><code class="language-plaintext" data-lang="plaintext">git clone https://github.com/AndreyErr/php-uni-forum.git</code></pre> из нужной вам дерриктории.</p>
+                </div>
+
+                <div class="mb-4">
+                  <h5 class="h6 font-weight-bold">Вручную</h5>
+                  <p>Скачайте репозиторий из последнего <a target="_blank" href="https://github.com/AndreyErr/php-uni-forum/releases">релиза</a> или самую <a target="_blank" href="https://github.com/AndreyErr/php-uni-forum">новую версию</a> (<code>может быть нестабильной</code>) и разархивируйте в нужную вам деррикторию.</p>
+                </div>
+
+                <h5 class="h6 font-weight-bold">Установка контейнеров</h5>
+                <p>Запускаем докер.</p>
+
+                <p>После запуска, в корневой дерриктории проекта <code>php-uni-forum/</code> выполняем команду <pre><code class="language-plaintext" data-lang="plaintext">docker compose build</code></pre>. После этого начнётся сборка проекта.</p>
+                
+              <div class="mb-4" id="start">
+                <div class="media mb-3">
+                  <span class="badge badge-primary badge-pill align-self-center mr-2">2</span>
+                  <div class="media-body">
+                    <h4 class="h5 font-weight-bold mb-0">Запуск проекта <a class="js-anchor-link duik-anchorjs-link" href="#start" aria-label="Anchor" data-anchorjs-icon="#"></a></h4>
+                  </div>
+                </div>
+
+                <div class="mb-4">
+                  <h5 class="h6 font-weight-bold">Запуск докер контейнеров</h5>
+                  <p>Для запуска контейнеров в корневой дерриктории проекта <code>php-uni-forum/</code> выполняем команду <pre><code class="language-plaintext" data-lang="plaintext">docker compose up</code></pre>.</p>
+                </div>
+
+                <p>Дождитесь завершения запуска (обычно не более <code>20</code> сукунд).</p>
+                <p>Остановить контейнеры можно в терминале сочетанием клавишь0 <code>Ctrl</code> + <code>c</code>!</p>
+
+                </div>
+            </div>
+            <!-- End Getting Started -->
+
+            <hr class="mt-7 mb-4">
+
+            <!-- Starter Template -->
+            <div id="doc-starter-template" class="mb-7">
+              <h2 class="h4 font-weight-bold">Открыть проект <a class="js-anchor-link duik-anchorjs-link" href="#doc-starter-template" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
+              <p>В проекте существуют следующие порты:</p>
+
+              <h4 class="h5">Заданные порты (по умолчанию)</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Порт</th>
+                            <th>Описание</th>
+                            <th>Ссылка</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8080</td>
+                            <td>Основной порт через который происходит управление проектом. На этом порту находится nginx.</td>
+                            <td><a target="_blank" href="http://localhost:8080">http://localhost:8080</a></td>
+                        </tr>
+                        <tr>
+                            <td>8082</td>
+                            <td>Порт с визуализацией бд при помощи phpMyAdmin.</td>
+                            <td><a target="_blank" href="http://localhost:8082">http://localhost:8082</a></td>
+                        </tr>
+                        <tr>
+                            <td>8025</td>
+                            <td>Тестовый почтовый сервер (не является полноценным почтовым сервером). Но нём можно принимать отправленную с сайта почтую</td>
+                            <td><a target="_blank" href="http://localhost:8025">http://localhost:8025</a></td>
+                        </tr>
+                        <tr>
+                          <td>8081</td>
+                          <td>Apache сервер. Работает через nginx.</td>
+                          <td><a href="#!">Недоступно (НЕ ЗАНИМАТЬ)</a></td>
+                        </tr>
+                        <tr>
+                          <td>1025</td>
+                          <td>Порт для работы почтового сервера.</td>
+                          <td><a href="#!">Недоступно (НЕ ЗАНИМАТЬ)</a></td>
+                        </tr>
+                        <tr>
+                          <td>1434</td>
+                          <td>Порт для работы баз данных.</td>
+                          <td><a href="#!">Недоступно (НЕ ЗАНИМАТЬ)</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+
+
+              <h4 class="h5">Данные для входа (по умолчанию)</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Место</th>
+                            <th>Ссылка</th>
+                            <th>Данные</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Аккаунт админа</td>
+                            <td><a target="_blank" href="http://localhost:8080">http://localhost:8080</a></td>
+                            <td><code>Admin</code>, <code>qwerty123#</code></td>
+                        </tr>
+                        <tr>
+                          <td>Аккаунт на визуализаторе баз данных</td>
+                          <td><a target="_blank" href="http://localhost:8082">http://localhost:8082</a></td>
+                          <td><code>Mysql_db</code>, <code>root</code>, <code>root</code></td>
+                      </tr>
+                    </tbody>
+                </table>
+              </div>
+
+
+            <div id="important-globals" class="mb-7">
+              <h2 class="h4 font-weight-bold">Что дальше <a class="js-anchor-link duik-anchorjs-link" href="#important-globals" data-anchorjs-icon="#"></a></h2>
+              <p>Дальше вы можете сами развивать сервис как захотите. Например, добавлять новые модули или изменять уже существующие. Удачи!</p>
+            </div>
+
+          </div>
+          <!-- End Content -->
+
+          <hr class="mt-7 mb-4">
+
+        <!-- Footer -->
+        <footer class="text-dark">
+          <p class="h3 font-weight-dark mb-md-0"><a class="text-dark" href="https://github.com/AndreyErr">github.com/AndreyErr</a> | AndreyErrDocs</p>
+        </footer></div>
+        <!-- End Footer -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to duik-go-to" href="javascript:;">
+    <span class="fa fa-arrow-up duik-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../assets/vendor/prism/prism.js"></script>
+
+  <!-- JS -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
